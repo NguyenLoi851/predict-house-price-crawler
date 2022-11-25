@@ -34,8 +34,8 @@ class House:
   feature_count: int = 0
 
   def __str__(self):
-    return "Info of house: {},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}".format(self.id,\
-      self.price, self.bedroom_amount, self.bathroom_amount, self.area, self.floor_amount, self.bbq,\
+    return "Info of house: {},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}".format(self.id,\
+      self.price, self.bedroom_amount, self.bathroom_amount, self.area, self.floor_amount, self.air_conditioner, self.bbq,\
       self.receptionists, self.gym, self.garden, self.library, self.park, self.playground, self.guard,\
       self.pool, self.tennis_court, self.wifi, self.location, self.type, self.near_transport, self.furnished, self.feature_count)
 
@@ -59,7 +59,7 @@ headers = {
   'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36'
 }
 
-house_types = ['condos', 'townhouses', 'houses', 'villas', 'land', 'commercial-property', 'offices', 'retail-spaces', 'shophouse', 'warehouses', 'hotels']
+house_types = ['condos', 'townhouses', 'houses', 'apartments', 'villas', 'land', 'commercial-property', 'offices', 'retail-spaces', 'shophouse', 'warehouses', 'hotels']
 
 house_locations = [
 'an-giang', 'bà-rịa-vũng-tàu', 'bắc-giang', 'bắc-kạn', 'bắc-ninh', 
@@ -147,14 +147,15 @@ def crawl_by_topic(house_type, house_location, house_near_transport_status, hous
       # price
       try:
         price_text = (house.select_one('div.price').text).split()
-        if len(price_text) == 3 and  price_text[2] == 'tỷ':
+        if len(price_text) >= 3 and  price_text[2] == 'tỷ':
           price = int(float(price_text[1])*10**9)
         else:
           price = int(price_text[1].replace(',',''))
         houseInstance.price = price
         houseInstance.increase_feature_count()
-      except:
-        print('Error when crawling price')
+      except Exception as eprice:
+        print(eprice)
+        print("Error when crawling price")
 
       try:
         try:
@@ -165,7 +166,8 @@ def crawl_by_topic(house_type, house_location, house_near_transport_status, hous
           house_a_tag = house.find_all('a', href = True)[0]
           house_url = house_a_tag['href']
           house_response = requests.request("GET", house_url, headers=headers, data=payload)
-      except:
+      except Exception as eurl:
+        print(eurl)
         print('Error when crawling house url')
       house_soup = BeautifulSoup(house_response.content, 'lxml')
 
@@ -177,7 +179,10 @@ def crawl_by_topic(house_type, house_location, house_near_transport_status, hous
         houseInstance.increase_feature_count()
         if id in allHouseIDs:
           continue
-      except:
+        else:
+          allHouseIDs.append(id)
+      except Exception as eid:
+        print(eid)
         print('Error when crawling ID')
       #
       key_features = house_soup.select('ul.key-featured > li.text-center')
@@ -201,7 +206,7 @@ def crawl_by_topic(house_type, house_location, house_near_transport_status, hous
           
           # area
           elif name == 'Diện tích':
-            area = float(amount.split()[0])
+            area = float(amount.split()[0].replace(',',''))
             houseInstance.area = area
             houseInstance.increase_feature_count()
           
@@ -210,7 +215,8 @@ def crawl_by_topic(house_type, house_location, house_near_transport_status, hous
             floor_amount = amount
             houseInstance.floor_amount = floor_amount
             houseInstance.increase_feature_count()
-      except:
+      except Exception as ekeyfure:
+        print(ekeyfure)
         print("Error when crawling key features")
 
       try:
@@ -218,7 +224,7 @@ def crawl_by_topic(house_type, house_location, house_near_transport_status, hous
         for facility in facilities_li_tag:
           name = facility.text.strip()
 
-          if name.encode() == 'Máy lạnh':
+          if name == 'Máy lạnh':
             houseInstance.air_conditioner = 1
             houseInstance.increase_feature_count()      
             
@@ -243,7 +249,7 @@ def crawl_by_topic(house_type, house_location, house_near_transport_status, hous
             houseInstance.increase_feature_count()
 
           elif name == 'Bãi đậu xe':
-            houseInstance.library = 1
+            houseInstance.park = 1
             houseInstance.increase_feature_count()
 
           elif name == 'Sân chơi':
@@ -265,7 +271,8 @@ def crawl_by_topic(house_type, house_location, house_near_transport_status, hous
           elif name == 'WiFi':
             houseInstance.wifi = 1
             houseInstance.increase_feature_count()
-      except:
+      except Exception as efacilities:
+        print(efacilities)
         print('Error when crawling facilities')
       print(houseInstance)
       csvwriter.writerows([[houseInstance.id, houseInstance.price, \
@@ -311,14 +318,13 @@ def main(house_types):
           if((house_location == '') and (house_near_transport_status == '') and (house_furnish_status == '')):
             crawl_by_topic(house_type, house_location, house_near_transport_status, house_furnish_status)
 
-
 try:
-  index_house_type = 0
-  filename = house_types[index_house_type]+'.csv'
+  index_house_type = 13
+  filename = 'dataset/'+ house_types[index_house_type]+'.csv'
   with open(filename, 'w') as csvfile:
     csvwriter = csv.writer(csvfile)
     csvwriter.writerow(fields)
-    # main([house_types[index_house_type]])
-    crawl_by_topic('condos','hồ-chí-minh','','fully')
+    main([house_types[index_house_type]])
+    # crawl_by_topic('villas','hà-nội','','fully')
 except Exception as e:
   print(e)
