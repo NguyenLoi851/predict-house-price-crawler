@@ -139,8 +139,8 @@ try:
     with open(filename, 'w') as csvfile:
         csvwriter = csv.writer(csvfile)
         csvwriter.writerow(fields)
-        crawl_each_page(11)
-        # for i in range(1, 10):
-        #     crawl_each_page(i)
+        # crawl_each_page(11)
+        for i in range(1, 10):
+            crawl_each_page(i)
 except Exception as emain:
     print(emain)
