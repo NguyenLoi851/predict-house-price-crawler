@@ -1,0 +1,1875 @@
+import fetch from "node-fetch";
+
+fetch("https://gateway.chotot.com/v1/public/ad-listing?cg=1020&key_param_included=true", {
+  "headers": {
+    "accept": "application/json, text/plain, */*",
+    "accept-language": "en-US,en;q=0.6",
+    "ct-fingerprint": "",
+    "ct-platform": "web",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "sec-gpc": "1"
+  },
+  "referrer": "https://www.nhatot.com/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "omit"
+}).then(response => response.text())
+.then(result => console.log(JSON.parse(result)))
+.catch(error => console.log('error', error));
+
+
+
+
+fetch("https://www.nhatot.com/mua-ban-nha-dat-quan-ninh-kieu-can-tho/99026219.htm", {
+  "headers": {
+    "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "accept-language": "en-US,en;q=0.6",
+    "cache-control": "max-age=0",
+    "sec-fetch-dest": "document",
+    "sec-fetch-mode": "navigate",
+    "sec-fetch-site": "same-origin",
+    "sec-fetch-user": "?1",
+    "sec-gpc": "1",
+    "upgrade-insecure-requests": "1",
+    "cookie": "showInsertAdToolTip=true; isOnboardSimilarAd=true; isEntitlementProtectionTooltipVeh=true; isOnboardCalFina=true; searchInfo={%22originalAdId%22:139462851%2C%22position%22:3%2C%22ad_source%22:%22similarad%22}; __cf_bm=3FAP2kqbSCYBf7ybvCNhfHmyBVi7PiSuixq9ZNIwICo-1669572849-0-AewQ0mxQYPM9M1NiGG62w0ViMZNw/NH5r0we71QVwfCVrz1gQKgTqM3jYpH9aF2+m8OTD+Zi4cdAy6IXmb9oYXars7bBedpToE+vUuIVq1ijoZhlog34+hIRKOHL739/p5sYI8if0YD1XpLwN0l80s4AXjK77orRSXUhwjgM+YULu4KhkSmZMvFqfBv3vzKI+g=="
+  },
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/APP_WRAPPER/production/3.7.1/desktop/header.css", {
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://js.api.here.com/v3/3.1/mapsjs-ui.css", {
+  "headers": {
+    "accept": "text/css,*/*;q=0.1",
+    "accept-language": "en-US,en;q=0.6",
+    "if-modified-since": "Thu, 24 Nov 2022 08:42:19 GMT",
+    "if-none-match": "W/\"af163f1140ee06b05bcc6ef2255420da\"",
+    "sec-fetch-dest": "style",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "sec-gpc": "1",
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://js.api.here.com/v3/3.1/mapsjs-service.js", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.6",
+    "if-modified-since": "Thu, 24 Nov 2022 08:42:19 GMT",
+    "if-none-match": "W/\"7f088125ad4bfb5555630997f93786d9\"",
+    "sec-fetch-dest": "script",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "sec-gpc": "1",
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://js.api.here.com/v3/3.1/mapsjs-data.js", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.6",
+    "if-modified-since": "Thu, 24 Nov 2022 08:42:19 GMT",
+    "if-none-match": "W/\"42083a55a93265d0f15ac999ef91e0c2\"",
+    "sec-fetch-dest": "script",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "sec-gpc": "1",
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://js.api.here.com/v3/3.1/mapsjs-ui.js", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.6",
+    "if-modified-since": "Thu, 24 Nov 2022 08:42:19 GMT",
+    "if-none-match": "W/\"54ddf8ce6a4d14f3e9a9f7ab3f6c32fd\"",
+    "sec-fetch-dest": "script",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "sec-gpc": "1",
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://js.api.here.com/v3/3.1/mapsjs-mapevents.js", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.6",
+    "if-modified-since": "Thu, 24 Nov 2022 08:42:19 GMT",
+    "if-none-match": "W/\"02734b04ce36b9ffe9fc1429c111e3c1\"",
+    "sec-fetch-dest": "script",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "sec-gpc": "1",
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/default_images/c2c_ad_image.webp", {
+  "headers": {
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/marketplace/transparent_logo.png", {
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/chotot-icons/svg/number-image.svg", {
+  "headers": {
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/chotot-icons/svg/video-icon.svg", {
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/C2C_CDN_STAGING/ee2903a8c78024325cd95b42f500ac69.svg", {
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/default_scripts/gpt.js", {
+  "headers": {
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/production/sdk/branch-latest.min.js", {
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://js.api.here.com/v3/3.1/mapsjs-core.js", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.6",
+    "if-modified-since": "Thu, 24 Nov 2022 08:42:19 GMT",
+    "if-none-match": "W/\"f5f723ef478e4f35099042fcf3a8fde4\"",
+    "sec-fetch-dest": "script",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "sec-gpc": "1",
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/CT_WEB_UNI_ADLISTING_CDN/06662905deff14b4cb56a6e5ab03dcee559ee77a/_next/static/css/eea8f0c71957c31f.css", {
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/CT_WEB_UNI_ADLISTING_CDN/06662905deff14b4cb56a6e5ab03dcee559ee77a/_next/static/css/8cdcb08ab50c8053.css", {
+  "headers": {
+    "accept": "text/css,*/*;q=0.1",
+    "accept-language": "en-US,en;q=0.6",
+    "if-none-match": "W/\"048b6c0ef0ed6f3661656a3e178c6978\"",
+    "sec-fetch-dest": "style",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "cross-site",
+    "sec-gpc": "1",
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/CT_WEB_UNI_ADLISTING_CDN/06662905deff14b4cb56a6e5ab03dcee559ee77a/_next/static/css/f335019d7a7a3bec.css", {
+  "headers": {
+    "accept": "text/css,*/*;q=0.1",
+    "accept-language": "en-US,en;q=0.6",
+    "if-none-match": "W/\"42b609216cdaed1ac2c02019f52cadbd\"",
+    "sec-fetch-dest": "style",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "cross-site",
+    "sec-gpc": "1",
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/CT_WEB_UNI_ADLISTING_CDN/06662905deff14b4cb56a6e5ab03dcee559ee77a/_next/static/chunks/webpack-034a7d940f46f566.js", {
+  "headers": {
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/CT_WEB_UNI_ADLISTING_CDN/06662905deff14b4cb56a6e5ab03dcee559ee77a/_next/static/chunks/framework-0a88acb94d39c853.js", {
+  "headers": {
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/CT_WEB_UNI_ADLISTING_CDN/06662905deff14b4cb56a6e5ab03dcee559ee77a/_next/static/chunks/main-e88acda2baacae13.js", {
+  "headers": {
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/CT_WEB_UNI_ADLISTING_CDN/06662905deff14b4cb56a6e5ab03dcee559ee77a/_next/static/chunks/pages/_app-4a859fa4e7fb746b.js", {
+  "headers": {
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/CT_WEB_UNI_ADLISTING_CDN/06662905deff14b4cb56a6e5ab03dcee559ee77a/_next/static/chunks/3922-a95920de179da066.js", {
+  "headers": {
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/CT_WEB_UNI_ADLISTING_CDN/06662905deff14b4cb56a6e5ab03dcee559ee77a/_next/static/chunks/5998-77e9c8aae9720ced.js", {
+  "headers": {
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/CT_WEB_UNI_ADLISTING_CDN/06662905deff14b4cb56a6e5ab03dcee559ee77a/_next/static/chunks/5391-212ce8864712276b.js", {
+  "headers": {
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/CT_WEB_UNI_ADLISTING_CDN/06662905deff14b4cb56a6e5ab03dcee559ee77a/_next/static/chunks/5901-120e10dc87488ff6.js", {
+  "headers": {
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/CT_WEB_UNI_ADLISTING_CDN/06662905deff14b4cb56a6e5ab03dcee559ee77a/_next/static/chunks/1752-8ee6881e26cf2953.js", {
+  "headers": {
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/CT_WEB_UNI_ADLISTING_CDN/06662905deff14b4cb56a6e5ab03dcee559ee77a/_next/static/chunks/9166-1e0335a215382902.js", {
+  "headers": {
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/CT_WEB_UNI_ADLISTING_CDN/06662905deff14b4cb56a6e5ab03dcee559ee77a/_next/static/chunks/769-9429b42447723814.js", {
+  "headers": {
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/CT_WEB_UNI_ADLISTING_CDN/06662905deff14b4cb56a6e5ab03dcee559ee77a/_next/static/chunks/4135-bb2e2f5cdbb838ba.js", {
+  "headers": {
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/CT_WEB_UNI_ADLISTING_CDN/06662905deff14b4cb56a6e5ab03dcee559ee77a/_next/static/chunks/8452-9e7ed61ff49885f0.js", {
+  "headers": {
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/CT_WEB_UNI_ADLISTING_CDN/06662905deff14b4cb56a6e5ab03dcee559ee77a/_next/static/chunks/6690-e33728ab6ce18a1c.js", {
+  "headers": {
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/CT_WEB_UNI_ADLISTING_CDN/06662905deff14b4cb56a6e5ab03dcee559ee77a/_next/static/chunks/1110-7f787dfb28b6a799.js", {
+  "headers": {
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/CT_WEB_UNI_ADLISTING_CDN/06662905deff14b4cb56a6e5ab03dcee559ee77a/_next/static/chunks/pages/detailView-de86a27e82b74933.js", {
+  "headers": {
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/CT_WEB_UNI_ADLISTING_CDN/06662905deff14b4cb56a6e5ab03dcee559ee77a/_next/static/evTW8leOZVbCtJGjV6xMq/_buildManifest.js", {
+  "headers": {
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/CT_WEB_UNI_ADLISTING_CDN/06662905deff14b4cb56a6e5ab03dcee559ee77a/_next/static/evTW8leOZVbCtJGjV6xMq/_ssgManifest.js", {
+  "headers": {
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/default/nha_white_logo.webp", {
+  "headers": {
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/icons/svg/share-new.svg", {
+  "headers": {
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/icons/svg/order_timer.svg", {
+  "headers": {
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/icons/svg/shield.svg", {
+  "headers": {
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/icons/logos/ad-param/size.png", {
+  "headers": {
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/icons/logos/ad-param/price_m2.png", {
+  "headers": {
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/icons/logos/ad-param/rooms.png", {
+  "headers": {
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/icons/logos/ad-param/toilets.png", {
+  "headers": {
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/icons/logos/ad-param/floors.png", {
+  "headers": {
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/icons/logos/ad-param/property_legal_document.png", {
+  "headers": {
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/icons/logos/ad-param/property_road_condition.png", {
+  "headers": {
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/icons/logos/ad-param/house_type.png", {
+  "headers": {
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://cdn.chotot.com/admincentre/location/10x009130_105x761820_c.jpg", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "en-US,en;q=0.6",
+    "if-modified-since": "Sun, 27 Nov 2022 13:49:49 GMT",
+    "if-none-match": "\"5bc2f5e76b2fc45656da7e01837fccf8\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "cross-site",
+    "sec-gpc": "1",
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/chotot-icons/svg/arrow_down.svg", {
+  "headers": {
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/marketplace/shield-iconx4.png", {
+  "headers": {
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("chrome-extension://bfnaelmomeimhlpmgjnjophhpkkoljpa/content_script/inpage.js", {
+  "referrer": "",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.cloudflareinsights.com/beacon.min.js/vaafb692b2aea4879b33c060e79fe94621666317369993", {
+  "headers": {
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/chotot-icons/svg/circle-facebook.svg", {
+  "headers": {
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/chotot-icons/svg/circle-messenger.svg", {
+  "headers": {
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/chotot-icons/svg/circle-copylink.svg", {
+  "headers": {
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/logo/svg/chotot-logo-text.svg", {
+  "headers": {
+    "Referer": "https://static.chotot.com/storage/CT_WEB_UNI_ADLISTING_CDN/06662905deff14b4cb56a6e5ab03dcee559ee77a/_next/static/css/f335019d7a7a3bec.css",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://gateway.chotot.com/v1/private/profile/self", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.9",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "OPTIONS"
+}); ;
+fetch("https://gateway.chotot.com/v1/public/ad-listing?cg=1020&key_param_included=true", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.9",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "OPTIONS"
+}); ;
+fetch("https://www.googletagmanager.com/gtm.js?id=GTM-NZKHXF7", {
+  "headers": {
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/CT_WEB_UNI_ADLISTING_CDN/06662905deff14b4cb56a6e5ab03dcee559ee77a/_next/static/chunks/168.ef4b94f5855bc807.js", {
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/CT_WEB_UNI_ADLISTING_CDN/06662905deff14b4cb56a6e5ab03dcee559ee77a/_next/static/css/2812259fe2bd9876.css", {
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/CT_WEB_UNI_ADLISTING_CDN/06662905deff14b4cb56a6e5ab03dcee559ee77a/_next/static/chunks/147.4af4ba5b9b0e4287.js", {
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/CT_WEB_UNI_ADLISTING_CDN/06662905deff14b4cb56a6e5ab03dcee559ee77a/_next/static/css/239bb83bd4a3c0b2.css", {
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/CT_WEB_UNI_ADLISTING_CDN/06662905deff14b4cb56a6e5ab03dcee559ee77a/_next/static/chunks/3564.dd737deb87532642.js", {
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/CT_WEB_UNI_ADLISTING_CDN/06662905deff14b4cb56a6e5ab03dcee559ee77a/_next/static/chunks/548.7cb6d592fd53040f.js", {
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/CT_WEB_UNI_ADLISTING_CDN/06662905deff14b4cb56a6e5ab03dcee559ee77a/_next/static/chunks/7155.805da27099fe7c60.js", {
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/CT_WEB_UNI_ADLISTING_CDN/06662905deff14b4cb56a6e5ab03dcee559ee77a/_next/static/chunks/7793.de09ac45e58e9270.js", {
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/CT_WEB_UNI_ADLISTING_CDN/06662905deff14b4cb56a6e5ab03dcee559ee77a/_next/static/chunks/6695.bd15ff41c014bbfb.js", {
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/CT_WEB_UNI_ADLISTING_CDN/06662905deff14b4cb56a6e5ab03dcee559ee77a/_next/static/css/16d85443b0048a23.css", {
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/CT_WEB_UNI_ADLISTING_CDN/06662905deff14b4cb56a6e5ab03dcee559ee77a/_next/static/chunks/759.82843c6d0b5fb25b.js", {
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/CT_WEB_UNI_ADLISTING_CDN/06662905deff14b4cb56a6e5ab03dcee559ee77a/_next/static/chunks/6727.de497e1995452f5a.js", {
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/CT_WEB_UNI_ADLISTING_CDN/06662905deff14b4cb56a6e5ab03dcee559ee77a/_next/static/css/a1ebd3367d5ec10c.css", {
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/CT_WEB_UNI_ADLISTING_CDN/06662905deff14b4cb56a6e5ab03dcee559ee77a/_next/static/chunks/9838.58101dccb8d5e04e.js", {
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/CT_WEB_UNI_ADLISTING_CDN/06662905deff14b4cb56a6e5ab03dcee559ee77a/_next/static/css/380fcb830cd445f3.css", {
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/CT_WEB_UNI_ADLISTING_CDN/06662905deff14b4cb56a6e5ab03dcee559ee77a/_next/static/chunks/1997.d91283e5706158f9.js", {
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/CT_WEB_UNI_ADLISTING_CDN/06662905deff14b4cb56a6e5ab03dcee559ee77a/_next/static/css/4a44becd80942c05.css", {
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/CT_WEB_UNI_ADLISTING_CDN/06662905deff14b4cb56a6e5ab03dcee559ee77a/_next/static/chunks/8351.4d824658e1221466.js", {
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/CT_WEB_UNI_ADLISTING_CDN/06662905deff14b4cb56a6e5ab03dcee559ee77a/_next/static/chunks/9865.52362fedb44b2cc0.js", {
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/CT_WEB_UNI_ADLISTING_CDN/06662905deff14b4cb56a6e5ab03dcee559ee77a/_next/static/css/1e5da058aa68862c.css", {
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/CT_WEB_UNI_ADLISTING_CDN/06662905deff14b4cb56a6e5ab03dcee559ee77a/_next/static/chunks/3414.61b0924ad55829df.js", {
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/CT_WEB_UNI_ADLISTING_CDN/06662905deff14b4cb56a6e5ab03dcee559ee77a/_next/static/chunks/9067.cc8bdcfae625f00b.js", {
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/CT_WEB_UNI_ADLISTING_CDN/06662905deff14b4cb56a6e5ab03dcee559ee77a/_next/static/chunks/9993.a314060a80572f2b.js", {
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/CT_WEB_UNI_ADLISTING_CDN/06662905deff14b4cb56a6e5ab03dcee559ee77a/_next/static/chunks/6427.099cdebc18ff6e6c.js", {
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/CT_WEB_UNI_ADLISTING_CDN/06662905deff14b4cb56a6e5ab03dcee559ee77a/_next/static/css/5b9ffeeb0e38e26d.css", {
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/CT_WEB_UNI_ADLISTING_CDN/06662905deff14b4cb56a6e5ab03dcee559ee77a/_next/static/chunks/1979.aa3483d0a9cd8480.js", {
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/CT_WEB_UNI_ADLISTING_CDN/06662905deff14b4cb56a6e5ab03dcee559ee77a/_next/static/chunks/706-831b0dbbdf17a658.js", {
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/CT_WEB_UNI_ADLISTING_CDN/06662905deff14b4cb56a6e5ab03dcee559ee77a/_next/static/css/4208866dc0876c4b.css", {
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/CT_WEB_UNI_ADLISTING_CDN/06662905deff14b4cb56a6e5ab03dcee559ee77a/_next/static/css/e505de5893429180.css", {
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/CT_WEB_UNI_ADLISTING_CDN/06662905deff14b4cb56a6e5ab03dcee559ee77a/_next/static/chunks/3606.f87b760e9419a15d.js", {
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/CT_WEB_UNI_ADLISTING_CDN/06662905deff14b4cb56a6e5ab03dcee559ee77a/_next/static/chunks/3670.545f7f280242e81f.js", {
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://gateway.chotot.com/v1/private/profile/self", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.6",
+    "authorization": "Bearer undefined",
+    "content-type": "application/json",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "sec-gpc": "1",
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/APP_WRAPPER/production/3.7.1/desktop/header.js", {
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://connect.facebook.net/en_US/sdk.js", {
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://gateway.chotot.com/api-uni/public/v1/lead/get-ad-benefit?account_id=4370840&ad_id=136962722&big_category=1000", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.6",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "sec-gpc": "1",
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://gateway.chotot.com/v1/public/ad-listing?cg=1020&key_param_included=true", {
+  "headers": {
+    "accept": "application/json, text/plain, */*",
+    "accept-language": "en-US,en;q=0.6",
+    "ct-fingerprint": "",
+    "ct-platform": "web",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "sec-gpc": "1",
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://gateway.chotot.com/v1/public/ratings/177bea5e6f0aedfca33de8cbacddf774?post_type=all", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.6",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "sec-gpc": "1",
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://gateway.chotot.com/v1/public/profile/177bea5e6f0aedfca33de8cbacddf774", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.6",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "sec-gpc": "1",
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://gateway.chotot.com/v2/public/chat/user/get/177bea5e6f0aedfca33de8cbacddf774", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.6",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "sec-gpc": "1",
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://gateway.chotot.com/v1/public/mc/get-all", {
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://gateway.chotot.com/v1/public/buyer-collection/tool-service-adview?cg=1020&type=TOOL_SERVICE", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.6",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "sec-gpc": "1",
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://gateway.chotot.com/v1/public/price/suggest/by_ad_id?ad_id=136962722", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.6",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "sec-gpc": "1",
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/CT_WEB_UNI_ADLISTING_CDN/06662905deff14b4cb56a6e5ab03dcee559ee77a/_next/static/chunks/6991.d413fdc556aedd3f.js", {
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://www.chotot.com/chotot-img/favicon.ico", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "en-US,en;q=0.6",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "cross-site",
+    "sec-gpc": "1",
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/chotot-img/favicon.ico", {
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/default/slide-prev.svg", {
+  "headers": {
+    "Referer": "https://static.chotot.com/storage/CT_WEB_UNI_ADLISTING_CDN/06662905deff14b4cb56a6e5ab03dcee559ee77a/_next/static/css/239bb83bd4a3c0b2.css",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/chotot-icons/svg/next.svg", {
+  "headers": {
+    "Referer": "https://static.chotot.com/storage/CT_WEB_UNI_ADLISTING_CDN/06662905deff14b4cb56a6e5ab03dcee559ee77a/_next/static/css/239bb83bd4a3c0b2.css",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://cdn.chotot.com/ETyuJdYRbQrwMhbls5MG6uvHyJBJayN0jtyQ0EYHRAw/preset:view/plain/994488375a35ff97d4424e748f56fe5b-2790571914190396436.jpg", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "en-US,en;q=0.6",
+    "if-modified-since": "Fri, 16 Sep 2022 06:41:17 GMT",
+    "if-none-match": "\"3a052835cbf43604f13a528ebea16d62\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "cross-site",
+    "sec-gpc": "1",
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7", {
+  "referrer": "",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/chotot-icons/svg/adview-cta-button.svg", {
+  "headers": {
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/chotot-icons/svg/white-back.svg", {
+  "headers": {
+    "Referer": "https://static.chotot.com/storage/CT_WEB_UNI_ADLISTING_CDN/06662905deff14b4cb56a6e5ab03dcee559ee77a/_next/static/css/f335019d7a7a3bec.css",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/chotot-icons/svg/white-next.svg", {
+  "headers": {
+    "Referer": "https://static.chotot.com/storage/CT_WEB_UNI_ADLISTING_CDN/06662905deff14b4cb56a6e5ab03dcee559ee77a/_next/static/css/f335019d7a7a3bec.css",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/icons/saveAd/save-ad.svg", {
+  "headers": {
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/icons/logos/ad-param/location.svg", {
+  "headers": {
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/default_images/project/rightIcon.svg", {
+  "headers": {
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/marketplace/nha_white_logo.png", {
+  "headers": {
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/default_images/fina/logo-fina-white.png", {
+  "headers": {
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/default_images/fina/house.png", {
+  "headers": {
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/default_images/fina/time.png", {
+  "headers": {
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/default_images/fina/money.png", {
+  "headers": {
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/default_images/fina/bank.png", {
+  "headers": {
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/default_images/fina/icons/down.png", {
+  "headers": {
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/default_images/project/triangle.svg", {
+  "headers": {
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/icons/svg/next-orange.svg", {
+  "headers": {
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/default_images/pty/pro-pty-icon.svg", {
+  "headers": {
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://storage.googleapis.com/static-chotot-com/storage/chotot-icons/svg/support.svg", {
+  "headers": {
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://storage.googleapis.com/static-chotot-com/storage/chotot-icons/svg/warning_grey.svg", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "en-US,en;q=0.6",
+    "if-modified-since": "Mon, 16 May 2022 08:17:36 GMT",
+    "if-none-match": "\"04235e7df415fd5cf3ff2983eac77d3d\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "cross-site",
+    "sec-gpc": "1",
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://gateway.chotot.com/v1/public/recommender/ad?ad_id=136962722&fingerprint=undefined&similar_type=1&limit=20&page=1", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.6",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "sec-gpc": "1",
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://gateway.chotot.com/v1/public/recommender/ad?ad_id=136962722&fingerprint=undefined&similar_type=0&limit=20&page=1", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.6",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "sec-gpc": "1",
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://gateway.chotot.com/v1/public/server-proxy/check", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.9",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "OPTIONS"
+}); ;
+fetch("https://gateway.chotot.com/v1/public/theme/themes", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.6",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "sec-gpc": "1",
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://gateway.chotot.com/v1/public/web-proxy-api/loadC2CCategories", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.6",
+    "if-none-match": "W/\"9751-lLUPRBAnwuNDDTiu7ntriOsxnHo\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "sec-gpc": "1",
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://gateway.chotot.com/v1/public/theme/themes", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.6",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "sec-gpc": "1",
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://www.googletagmanager.com/gtm.js?id=GTM-NZKHXF7", {
+  "headers": {
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://gateway.chotot.com/v2/public/param_to_text", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.6",
+    "if-none-match": "W/\"65-D1nZDxrX4YQsFdtuElPb/cmrzbE\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "sec-gpc": "1",
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://gateway.chotot.com/v1/public/server-proxy/check", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.6",
+    "content-type": "application/json",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "sec-gpc": "1",
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": "{\"client_info\":{\"user_id\":\"\",\"country_code\":\"VN\",\"is_staff\":false,\"is_anonymous\":false,\"platform\":\"WEB\",\"session_id\":\"\",\"client_id\":\"\"},\"exp_id\":\"ct-web-more-menu\"}",
+  "method": "POST"
+}); ;
+fetch("https://gateway.chotot.com/v1/public/chapy-pro/conf", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.6",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "sec-gpc": "1",
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://connect.facebook.net/en_US/sdk.js?hash=bc149b3b22a46249c70cad1241f58532", {
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://connect.facebook.net/en_US/sdk.js", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.6",
+    "if-none-match": "\"96df73b83086e9d2b77f722af5b07bb6\"",
+    "sec-fetch-dest": "script",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "cross-site",
+    "sec-gpc": "1",
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://passport.chotot.com/v1/public/ad-listing/phone?e=mWth7RFLoWbJ8J%2BAXkdETFNnSeMZ34T5PqSIT6kl2q7OJPZWPXH2SqhA4hbor2Y%2BwpsuhOnwZ2SEtMm7dqiXqYp0i8W9ze9HuhoEEuACyd%2FgMwIqia9wH%2Fmp6vtDvYXcWL3U0XD6oQIOeYkTvvqoC3vm8pa%2BXQmlibPRicSegLzFURmaCSu1YiC%2B4REOnwcB4NqLdxVjYJxt1H5bpm%2BsFTpxip5Cn3Ezz8y0DX%2FPXFu%2BDLQvwqFAgh6rpEVmYdzQbtGX2l0v4W%2FprtgtaRUSCtu41hmX3EVUVh1whOMfjnHGNDzmUH%2FHHzyBMtBciTTKLM0O2qnab%2FjO4fyK6feVIvlAosK8LRJhLrR75FLVMWCNgIucWn6jXxXza9XywMCtUIMWtFvI4Pzkpjb5dyJq%2FwvrgwGZ7Wa1AYwMzXraXSFZDLNEtgo0dhVWTTIqBbIC0hT%2BOqpIHKgFTTj6sIV3JgcEsYJ5S7c0TX4XxBE5RvVjwzrLs2PFL1LzDgN5r9BS", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.6",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "sec-gpc": "1",
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600", {
+  "headers": {
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://cdn.chotot.com/2XpKhat68ky-yiOnbm_4nFYllVgbbTV1DwlEnrVbJJ0/preset:view/plain/8bd30a2f978b84ecba0cc03b60c35bd6-2790571920502134073.jpg", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "en-US,en;q=0.6",
+    "if-modified-since": "Fri, 16 Sep 2022 06:41:21 GMT",
+    "if-none-match": "\"c7f24eb9c3a7aab23cbf9cf4e51e52a0\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "cross-site",
+    "sec-gpc": "1",
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://cdn.chotot.com/03s7EPoOwT3t3Wq3twRWnsqTctLgLJmYcUk2djypCBA/preset:view/plain/347180ca5edffe03c83e4b443e457765-2790571920556775893.jpg", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "en-US,en;q=0.6",
+    "if-modified-since": "Fri, 16 Sep 2022 06:41:21 GMT",
+    "if-none-match": "\"165931dc460222ae9ac2912b8bd5a12c\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "cross-site",
+    "sec-gpc": "1",
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://cdn.chotot.com/veU2jtDfJPVYzbaNpK-diQ6xiQb9clp2o-TXpNqLOek/preset:view/plain/eb92d9d294b7de1f4235d9e7deb49ffc-2790571920598384342.jpg", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "en-US,en;q=0.6",
+    "if-modified-since": "Fri, 16 Sep 2022 06:41:21 GMT",
+    "if-none-match": "\"cd9cf8eba9be9ef825ae7c240ce6ff26\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "cross-site",
+    "sec-gpc": "1",
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://cdn.chotot.com/SOOYKDD8nInCteIMtR_qBva0juA7ddNofMN_a7L8z-g/preset:view/plain/a3fcedb1ba2011ab64f9ad4994248442-2790571920565869588.jpg", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "en-US,en;q=0.6",
+    "if-modified-since": "Fri, 16 Sep 2022 06:41:21 GMT",
+    "if-none-match": "\"c22359fa3704362889e3f48fa7e9c0e8\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "cross-site",
+    "sec-gpc": "1",
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://cdn.chotot.com/oL9HcIhkkVH9_6mLvl9nJwgoY8EkgkCQ8ZK4SLISI8Q/preset:view/plain/161b7aa86514a8718fff5f21c9de4ee2-2790571926632707598.jpg", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "en-US,en;q=0.6",
+    "if-modified-since": "Fri, 16 Sep 2022 06:41:24 GMT",
+    "if-none-match": "\"9c34439563d6cb27fcf6bdc24d9bea88\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "cross-site",
+    "sec-gpc": "1",
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://gateway.chotot.com/v1/public/auth/token", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.6",
+    "content-type": "application/json",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "sec-gpc": "1",
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": "{}",
+  "method": "POST"
+}); ;
+fetch("https://gateway.chotot.com/v1/public/auth/token", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.9",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "OPTIONS"
+}); ;
+fetch("chrome-extension://amfojhdiedpdnlijjbhjnhokbnohfdfb/injected/nr-ext-dom/nr-ext-select-icon/nr-ext-select-icon.html", {
+  "referrer": "",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://www.facebook.com/tr/?id=221564734660253&ev=fb_page_view&dl=https%3A%2F%2Fwww.nhatot.com%2Fmua-ban-nha-dat-quan-ninh-kieu-can-tho%2F99026219.htm&rl=&if=false&ts=1669573047008&sw=870&sh=990&at=", {
+  "headers": {
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("chrome-extension://amfojhdiedpdnlijjbhjnhokbnohfdfb/injected/nr-ext-dom/nr-ext-select-icon/nr-ext-select-icon.css", {
+  "referrer": "",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/icons/svg/right_arrow_blue.svg", {
+  "headers": {
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/CT_WEB_UNI_ADLISTING_CDN/06662905deff14b4cb56a6e5ab03dcee559ee77a/_next/static/chunks/450.c6dd9f727b1aba48.js", {
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/CT_WEB_UNI_ADLISTING_CDN/06662905deff14b4cb56a6e5ab03dcee559ee77a/_next/static/chunks/4918.4b789eff58d0f8a6.js", {
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/CT_WEB_UNI_ADLISTING_CDN/06662905deff14b4cb56a6e5ab03dcee559ee77a/_next/static/css/e60a68785db7311d.css", {
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/CT_WEB_UNI_ADLISTING_CDN/06662905deff14b4cb56a6e5ab03dcee559ee77a/_next/static/chunks/4434.f78e91733edf3bfa.js", {
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://gateway.chotot.com/api-uni/public/v1/lead/get-ad-benefit?account_id=4370840&ad_id=136962722&big_category=1000", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.6",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "sec-gpc": "1",
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://cdn.chotot.com/RXo6VwkFHR-0VhU0ToPqwGuEO4aqL_RnUHRm4RJIAXs/preset:listing/plain/8e6cfe4b6428cf4baf41a489871fe223-2790570014687572852.jpg", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "en-US,en;q=0.6",
+    "if-modified-since": "Fri, 16 Sep 2022 06:22:25 GMT",
+    "if-none-match": "\"1a51da5e390720df39a05fa71ba62e12\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "cross-site",
+    "sec-gpc": "1",
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/icons/owner/pro.svg", {
+  "headers": {
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://cdn.chotot.com/u7Ft2UX4fRanJdjSejkYdHGQbDob6ago3AV3Brr1WSw/preset:listing/plain/c91b53b8173ff842d87c3da74eefaf46-2790571362847686861.jpg", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "en-US,en;q=0.6",
+    "if-modified-since": "Fri, 16 Sep 2022 06:35:48 GMT",
+    "if-none-match": "\"65f5d52e8ad63cc51e0167cca8e5d55e\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "cross-site",
+    "sec-gpc": "1",
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://cdn.chotot.com/IXbwoDOZ6pD3at_52kM8tMXnxx6IwPOlkHXAsd64ElI/preset:listing/plain/15c0f0122477f9620003cc8eb65b4d39-2799193283018968483.jpg", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "en-US,en;q=0.6",
+    "if-modified-since": "Mon, 14 Nov 2022 18:06:54 GMT",
+    "if-none-match": "\"6cf49b102427700d675ccdd544daa862\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "cross-site",
+    "sec-gpc": "1",
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://cdn.chotot.com/4_tMd3B47M-TIYMImUHqPpCmNSrgqB5nym8g_Uw0908/preset:listing/plain/fa5d0ed23c5d90bf1b52c64a07db3818-2790573709197996463.jpg", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "en-US,en;q=0.6",
+    "if-modified-since": "Fri, 16 Sep 2022 06:59:07 GMT",
+    "if-none-match": "\"6c8dc8f6ad82578629f0d08f8d424426\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "cross-site",
+    "sec-gpc": "1",
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://cdn.chotot.com/yccmEqMvOMo3d60yklPIT_-0_RflHqz4kpjLgbnQV9g/preset:listing/plain/60d750d0912841ebd128e96bd6c3c5d4-2790572282396758683.jpg", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "en-US,en;q=0.6",
+    "if-modified-since": "Fri, 16 Sep 2022 06:44:56 GMT",
+    "if-none-match": "\"bb542b49727c40d282305a89f4976c81\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "cross-site",
+    "sec-gpc": "1",
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://cdn.chotot.com/cEhkspYOB91F7XRb17Sis2fAnxW4rEU68ut5PqGrE9w/preset:listing/plain/26d9eb051df6da247241d5c92b7939e7-2790572649862051342.jpg", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "en-US,en;q=0.6",
+    "if-modified-since": "Fri, 16 Sep 2022 06:48:36 GMT",
+    "if-none-match": "\"72c62b204a8a410498da74c7e83e28cc\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "cross-site",
+    "sec-gpc": "1",
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://cdn.chotot.com/FBhiyUcL4DuOQLjUg5cMOi5TCgjFK0oi988GLe-6WqE/preset:listing/plain/e5f77941846429d6f223fc7a78eefd8e-2790570447697032052.jpg", {
+  "headers": {
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://cdn.chotot.com/LWCHQpZowHRB4hJ1cSBsXBdqy-Qcon0NiWpzhB4ePpg/preset:listing/plain/f83775ccc9e867a8c097a2440084811e-2795489964962381810.jpg", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "en-US,en;q=0.6",
+    "if-modified-since": "Thu, 20 Oct 2022 04:57:44 GMT",
+    "if-none-match": "\"a9766239090c8cda2ed0f9e15fe2b3d7\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "cross-site",
+    "sec-gpc": "1",
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://cdn.chotot.com/N1UvQsj09c3asW2K0Z9aH-X8LVS35WSQ0YfhjrYfYMo/preset:listing/plain/5a55fad4989fc7051c14ab7b53c15f64-2793308008502858520.jpg", {
+  "headers": {
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://cdn.chotot.com/tBBc3Q8a597LtgWToBXOKL-zs9_7dtoqkRt5bEQVTuM/preset:listing/plain/2ebb5974ef729a463a86040e4f6a3097-2796502032432052575.jpg", {
+  "headers": {
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://cdn.chotot.com/lweVJ8m8cfZ_p4fonRX3Hwj9wKX9YWYzsYGnZr9Li-Y/preset:listing/plain/98b1b40601f48fb2426277cb19a84864-2792472695212552413.jpg", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "en-US,en;q=0.6",
+    "if-modified-since": "Thu, 29 Sep 2022 09:23:51 GMT",
+    "if-none-match": "\"8b6b5768a148616c455b420fc8d1c536\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "cross-site",
+    "sec-gpc": "1",
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://cdn.chotot.com/ljPjPCpd76zoLng5_7WUCJPDTUet6WOYAFAUy8NPpe8/preset:listing/plain/654546a4081f2f2237cc115fb7fa7c04-2797110383162187371.jpg", {
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://cdn.chotot.com/BQWbZwK8BDV_VZRkfoHC9_68o1VDciZDEMlf_gP-sw8/preset:listing/plain/c4e57cf1c98b094ab5506058625e0954-2798701907220369132.jpg", {
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://cdn.chotot.com/qaE4lxCnXWUCnV24tKkQQOUB1F9fyIe9EoyHXSoTJNg/preset:listing/plain/faf1374d322a2ff4f584742a5f66d1cc-2799287325351109393.jpg", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "en-US,en;q=0.6",
+    "if-modified-since": "Tue, 15 Nov 2022 09:41:07 GMT",
+    "if-none-match": "\"5174f83c925644346e8d3c13e1172da1\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "cross-site",
+    "sec-gpc": "1",
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://cdn.chotot.com/qGC41L2EUQh2l7gK1zdGKa2coHtHFtbDLLnkkWbjSOA/preset:listing/plain/5dc945ed7bf1ecf8acd02cebe767ce8e-2752422839665825029.jpg", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "en-US,en;q=0.6",
+    "if-modified-since": "Mon, 27 Dec 2021 02:24:17 GMT",
+    "if-none-match": "\"835aab0acf9a418e663192ec08e1c6bc\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "cross-site",
+    "sec-gpc": "1",
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://cdn.chotot.com/YQp3cUD_SAryW-91WA1M3Ld0rOdo2rPTrLGd_Lgb0k4/preset:listing/plain/588d4a80deaaa9315565a42beb2c35b3-2774898536804662123.jpg", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "en-US,en;q=0.6",
+    "if-modified-since": "Tue, 31 May 2022 03:40:16 GMT",
+    "if-none-match": "\"25fe6678516d1ecf64f1f24b922fbfe9\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "cross-site",
+    "sec-gpc": "1",
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://cdn.chotot.com/uac2/21184027", {
+  "headers": {
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://cdn.chotot.com/RpWr1w76EuwjfQnDWdg54-21E9EBHYBss7iUuJTATeg/preset:listing/plain/036750374ec588856f027e6284ec1e2b-2795045194349595259.jpg", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "en-US,en;q=0.6",
+    "if-modified-since": "Mon, 17 Oct 2022 03:19:20 GMT",
+    "if-none-match": "\"616ca73f75c4748501830ed727099ecb\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "cross-site",
+    "sec-gpc": "1",
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://cdn.chotot.com/M3LQP6ZR1Tzt8Fv_7JV7s_I8Wmff3jnQEZcfZaxw86M/preset:listing/plain/0b11bfca4ebb3705c9bdf1fc9f580bfe-2796050007701424144.jpg", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "en-US,en;q=0.6",
+    "if-modified-since": "Mon, 24 Oct 2022 01:41:15 GMT",
+    "if-none-match": "\"8856fceb3e46fbb28bb9439e6eee5191\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "cross-site",
+    "sec-gpc": "1",
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://cdn.chotot.com/KEijOD61XIhC-6lQWyHW7Qls_SHD_cUUL7wDd9_KZbI/preset:listing/plain/515c2fbbc974db2d9bef915b7a87dbb0-2793311808702840944.jpg", {
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/icons/owner/shop.svg", {
+  "headers": {
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://cdn.chotot.com/fHq4qZlrwKgq7tcnAzgqNZ3M44i7hGEwZcQ16KrNpsI/preset:listing/plain/76525c787e1d4b4d84d71a5788b24f3d-2792587808490603611.jpg", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "en-US,en;q=0.6",
+    "if-modified-since": "Fri, 30 Sep 2022 04:27:24 GMT",
+    "if-none-match": "\"05ff97deb2c074eb047674053fc12e2a\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "cross-site",
+    "sec-gpc": "1",
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://cdn.chotot.com/ys924KvRIAVqwKNsOaAZaRsTdnoCLCfNcucuHaAHR5w/preset:listing/plain/928f04bbcd0cd27b41cc06cfefde0369-2795214601736691716.jpg", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "en-US,en;q=0.6",
+    "if-modified-since": "Tue, 18 Oct 2022 07:22:14 GMT",
+    "if-none-match": "\"1e1e2c40994bf7489c3dcb24e4b47d4a\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "cross-site",
+    "sec-gpc": "1",
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://cdn.chotot.com/nuLqY7DRP0wDW96PXwBcyXE7tm9RwsgBEgGzVZRLDfs/preset:listing/plain/e7fac33efbb718c5a77142ff5cf22b12-2797635825704783498.jpg", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "en-US,en;q=0.6",
+    "if-modified-since": "Fri, 04 Nov 2022 00:14:56 GMT",
+    "if-none-match": "\"411b37952f6df2ace082b2543ed13523\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "cross-site",
+    "sec-gpc": "1",
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://cdn.chotot.com/hAOqCeUvZwoIVLS6YbXwQ4mEzwVRdoD3tYJuiLpgNRg/preset:listing/plain/53b4073c096f8b905e9eefe6d9b99945-2783330852397201865.jpg", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "en-US,en;q=0.6",
+    "if-modified-since": "Thu, 28 Jul 2022 07:47:48 GMT",
+    "if-none-match": "\"6322e7122488e459113b8be0800c6dd7\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "cross-site",
+    "sec-gpc": "1",
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://cdn.chotot.com/dIbLmixBZfgkV9uWi0Pxm298XCea4s15vXn43DSe6yQ/preset:listing/plain/f2b378fda46dda185ddf5ab01665eeb2-2793657033997760648.jpg", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "en-US,en;q=0.6",
+    "if-modified-since": "Fri, 07 Oct 2022 13:29:12 GMT",
+    "if-none-match": "\"6ae33a6374a5c5fafa5896af4ded2c25\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "cross-site",
+    "sec-gpc": "1",
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://cdn.chotot.com/7HN5u4svgLNNgN6Er9w3WwE4wyzu050tqvQknx8YfwA/preset:listing/plain/5876d1dfc0d1b2658539fc70eab887cf-2789412142694178396.jpg", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "en-US,en;q=0.6",
+    "if-modified-since": "Thu, 08 Sep 2022 06:39:59 GMT",
+    "if-none-match": "\"1744885627b88da0a8a40f8847996bba\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "cross-site",
+    "sec-gpc": "1",
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://cdn.chotot.com/byf3FduAxO9mWdlXd9JPcEG3f3yBnw5G0q2p4JkSWTw/preset:listing/plain/ffcc9b52fba028d86b2c9c04da64f498-2793218801980199195.jpg", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "en-US,en;q=0.6",
+    "if-modified-since": "Tue, 04 Oct 2022 12:55:45 GMT",
+    "if-none-match": "\"b4bb7cfad190bad2831ca74dc17598cd\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "cross-site",
+    "sec-gpc": "1",
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://cdn.chotot.com/uac2/21717173", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "en-US,en;q=0.6",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "cross-site",
+    "sec-gpc": "1",
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://cdn.chotot.com/uac2/17674495", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "en-US,en;q=0.6",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "cross-site",
+    "sec-gpc": "1",
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://cdn.chotot.com/uac2/20907364", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "en-US,en;q=0.6",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "cross-site",
+    "sec-gpc": "1",
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/chotot-icons/svg/user.svg", {
+  "headers": {
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://www.chotot.com/chotot-img/favicon.ico", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "en-US,en;q=0.6",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "cross-site",
+    "sec-gpc": "1",
+    "Referer": "https://www.nhatot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.chotot.com/storage/chotot-img/favicon.ico", {
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET"
+});

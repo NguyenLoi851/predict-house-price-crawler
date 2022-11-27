@@ -319,12 +319,12 @@ def main(house_types):
             crawl_by_topic(house_type, house_location, house_near_transport_status, house_furnish_status)
 
 try:
-  index_house_type = 5
+  index_house_type = 1
   filename = 'dataset/'+ house_types[index_house_type]+'.csv'
   with open(filename, 'w') as csvfile:
     csvwriter = csv.writer(csvfile)
     csvwriter.writerow(fields)
     main([house_types[index_house_type]])
-    # crawl_by_topic('warehouses','','','unfurnished')
+    # crawl_by_topic('villas','bà-rịa-vũng-tàu','','fully')
 except Exception as e:
   print(e)
