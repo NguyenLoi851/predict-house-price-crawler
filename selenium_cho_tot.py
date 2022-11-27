@@ -88,43 +88,43 @@ def crawl_each_page(i):
                     # print(feature.text.split()[0])
                     if name == "size":
                         houseInstance.area = feature.text.split()[0]
-                        print("area", houseInstance.area)
+                        # print("area", houseInstance.area)
                     if name == "price_m2":
                         houseInstance.price = feature.text.split()[0]
-                        print("price", houseInstance.price)
+                        # print("price", houseInstance.price)
                     if name == "rooms":
                         houseInstance.bedroom_amount = feature.text.split()[0]
-                        print("bedroom", houseInstance.bedroom_amount)
+                        # print("bedroom", houseInstance.bedroom_amount)
                     if name == "toilets":
                         houseInstance.bathroom_amount = feature.text.split()[0]
-                        print("bathroom", houseInstance.bathroom_amount)
+                        # print("bathroom", houseInstance.bathroom_amount)
                     if name == "floors":
                         houseInstance.floor_amount = feature.text
-                        print("floor", houseInstance.floor_amount)
+                        # print("floor", houseInstance.floor_amount)
                     if name == "width":
                         houseInstance.width = feature.text
-                        print("width", houseInstance.width)
+                        # print("width", houseInstance.width)
                     if name == "length":
                         houseInstance.length = feature.text
-                        print("length", houseInstance.length)
+                        # print("length", houseInstance.length)
                     if name == "living_size":
                         houseInstance.living_area = feature.text.split()[0]
-                        print("living size", houseInstance.living_area)
+                        # print("living size", houseInstance.living_area)
                     if name == "furnishing_sell":
                         houseInstance.furnish_status = feature.text
-                        print("furnish", houseInstance.furnish_status)
+                        # print("furnish", houseInstance.furnish_status)
                     if name == "house_type":
                         houseInstance.type = feature.text
-                        print("type", houseInstance.type)
+                        # print("type", houseInstance.type)
                     if name == "property_road_condition":
                         houseInstance.land_feature = feature.text
-                        print("condition", houseInstance.land_feature)
+                        # print("condition", houseInstance.land_feature)
                     if name == "direction":
                         houseInstance.main_door_direction = feature.text
-                        print("direction", houseInstance.main_door_direction)
+                        # print("direction", houseInstance.main_door_direction)
                     if name == "property_legal_document":
                         houseInstance.legal_document = feature.text
-                        print("legal document", houseInstance.legal_document)
+                        # print("legal document", houseInstance.legal_document)
                     
                 subdriver.quit()
                 csvwriter.writerows([[houseInstance.area, houseInstance.price, houseInstance.bedroom_amount, houseInstance.bathroom_amount, houseInstance.floor_amount, houseInstance.legal_document, houseInstance.land_feature, houseInstance.type, houseInstance.furnish_status, houseInstance.location, houseInstance.length, houseInstance.width, houseInstance.living_area, houseInstance.main_door_direction, houseInstance.listing_time]])
@@ -142,5 +142,6 @@ try:
         # crawl_each_page(11)
         for i in range(1, 10):
             crawl_each_page(i)
+            print(i)
 except Exception as emain:
     print(emain)
