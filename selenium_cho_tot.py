@@ -4,6 +4,11 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import csv
+from pyvirtualdisplay import Display
+
+display = Display(visible=0, size=(800, 600))
+display.start()
+
 
 PATH = './chromedriver'
 service = Service(PATH)
@@ -135,13 +140,15 @@ def crawl_each_page(i):
 
 try:
     fields = ['Area', 'Price', 'Bedroom amount', 'Bathroom amount', 'Floor amount', 'Legal document', 'Land feature', 'Type', 'Furnish status', 'Location', 'Length', 'Width', 'Living area', 'Main door direction', 'Listing time']
-    filename = 'test.csv'
+    filename = 'test6000to6100.csv'
     with open(filename, 'w') as csvfile:
         csvwriter = csv.writer(csvfile)
         csvwriter.writerow(fields)
-        # crawl_each_page(11)
-        for i in range(1, 10):
-            crawl_each_page(i)
-            print(i)
+        crawl_each_page(11)
+        # for i in range(6000, 6100):
+        #     crawl_each_page(i)
+        #     print(i)
 except Exception as emain:
     print(emain)
+
+display.stop()
